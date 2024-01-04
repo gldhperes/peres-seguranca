@@ -3,15 +3,13 @@
     height: 700px;
 
     background-image: url("../imgs/main\ img.png");
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
 
     justify-content: right;
 }
 
-#apresentacao{
+#intro{
     width: 300px;
     padding: 10px 15px;
 
