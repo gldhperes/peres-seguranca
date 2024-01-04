@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+:root{
+    --background: black;
+    --li-background: rgb(44, 44, 44);
+    --borderline: rgb(200, 200, 200);
+    --textColor: white;
+    --border: white;
+    --descricao: rgb(41, 41, 41);
+    --default-padding: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: large; */
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+
+    color: var(--textColor);
+    background-color: var(--background);
+    font-family: 'Poppins', sans-serif;
+   
+    scroll-behavior: smooth;
+ 
+}
+
+header, section, div, footer, nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* GERAL */
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* WPP */
+
+#wpp{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
