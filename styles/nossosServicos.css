@@ -1,6 +1,6 @@
 #nossosServicos{
     width: 100%;
-    padding: var(--default-padding);
+    padding: 60px var(--default-padding);
     background-color: white;
 
     flex-flow: column;

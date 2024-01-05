@@ -1,0 +1,23 @@
+#numeros{
+    width: 100%;
+    padding: 100px;
+
+    justify-content: center;
+    gap: 200px;
+    font-size: large;
+    font-weight: bolder;
+
+    background-color: yellow;
+    color: black;
+}
+
+.num{
+    width: 100px;
+
+    flex-flow: column;
+    gap: 10px;
+}
+
+.num > ion-icon{
+    font-size: 40px
+}

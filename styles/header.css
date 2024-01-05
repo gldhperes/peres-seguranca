@@ -1,4 +1,4 @@
-#header{
+#header {
     position: fixed;
     top: 0;
     left: 0;
@@ -16,31 +16,45 @@
 
 
 
-.logo{
+.logo {
     background-color: black;
     padding: 10px;
 }
 
-#navbar{
+#navbar {
     /* width: 100%; */
     /* background-color: black; */
     font-weight: bolder;
     gap: 10px;
 }
 
-#navbar > li{
+#navbar>li {
     padding: 5px 15px;
-   
+
 }
 
-#navbar > li:hover{
+#navbar>li:hover {
     cursor: pointer;
     background-color: var(--li-background);
 }
 
-#redes-sociais{
+#redes-sociais {
     gap: 20px;
     color: yellow;
     font-size: xx-large;
     cursor: pointer;
+}
+
+
+/* DROPDOWN */
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
 }

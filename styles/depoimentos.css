@@ -1,0 +1,54 @@
+#depoimentos{
+    padding: 100px;
+    background-color: white;
+    color: black;
+
+    gap: 20px;
+}
+
+.dep-cards{
+    width: 450px;
+    padding: 20px 25px;
+
+    
+    justify-content: left;
+    gap: 15px;
+
+    background-color: lightgray;
+}
+
+
+.dep{
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.dep-person{
+    gap: 10px
+}
+
+.dep-person > .img{
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.dep-person > .person{
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.dep-person > .person > .name{
+    font-weight: 600;
+}
+
+.dep-person > .person > .cargo{
+    font-size: small;
+}
+
+.comments{
+    font-size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+}
