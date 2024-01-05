@@ -8,7 +8,7 @@
     --borderline: rgb(200, 200, 200);
     --textColor: white;
     --border: white;
-    --descricao: rgb(41, 41, 41);
+    --descricao: rgb(50, 50, 50);
     --default-padding: 50px;
 }
 
@@ -31,7 +31,7 @@ body, html{
  
 }
 
-header, section, div, footer, nav{
+header, section, div, footer, nav, ul, li{
     display: flex;
     flex-flow: row;
     justify-content: center;
